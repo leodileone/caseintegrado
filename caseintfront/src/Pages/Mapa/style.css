@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.areadelivery{
+    background-color: lightgreen;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.entrega{
+    font-family: sans-serif;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 900px;
+}
+
+.myaddres{
+    width: 300px;
+    vertical-align: middle;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+.endereco{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 620px;
+    width: 1200px;
+    background-image: url('../../Assets/areadelivery.png');
+}

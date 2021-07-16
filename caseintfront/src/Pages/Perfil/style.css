@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.perfil{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: lightgreen;
+}
+
+.fotoperfil{
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+}
+
+.dadoscliente{
+    font-family: sans-serif;
+    height: 643px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.editarperfil{
+    font-family: sans-serif;
+    height: 643px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.editarperfil button{
+    cursor: pointer;
+}
+
+.suaforma{
+    width: 200px;
+}

@@ -1,7 +1,15 @@
 .card-container{
+    cursor: pointer;
+    width: 400px;
     margin: 10px;
 }
 
 .card-title{
-    color: blueviolet;
+    font-family: sans-serif;
+    color: rgb(223, 33, 33);
+}
+
+.card-container:hover{
+    background-color: green;
+    box-shadow: 2px 2px 2px black;
 }

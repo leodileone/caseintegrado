@@ -1,0 +1,32 @@
+.info{
+    background-color: lightgreen;
+    font-family: sans-serif;
+    font-size: 20px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.product-title{
+    color: rgb(223, 33, 33);
+    font-family: sans-serif;
+}
+
+img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+.arrow{
+    margin-top: 10px;
+    margin-right: 600px;
+    color: black;
+    width: 50%;
+    height: 50%;
+    display: flex;
+    flex-direction: flex-start;
+}

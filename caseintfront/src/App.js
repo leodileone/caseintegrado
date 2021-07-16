@@ -1,13 +1,11 @@
 import React from 'react';
 import './global.css';
-import Carrinho from './Pages/Carrinho/index';
-import Header from './Components/Header/index';
+import Routes from './Routes/routes';
 
 function App() {
   return (
     <div>
-      <Header/>
-      <Carrinho/>
+      <Routes/>
     </div>
   );
 }
